@@ -1,0 +1,53 @@
+/* fonts */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* button */
+.btn-primary {
+  background-color: rgba(233, 90, 8, 1);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  padding: 19px 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit
+}
+/* text-color */
+.text-primary {
+  color: rgba(233, 90, 8, 1);
+}
+.text-secondary {
+  color: rgba(0, 0, 0, 1);
+}
+.text-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
