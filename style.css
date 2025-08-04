@@ -22,6 +22,19 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.btn-secondary {
+  background-color: rgba(233, 90, 8, 1);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  padding: 25px 80px;
+  cursor: pointer;
+}
+/* body */
+body {
+  color: rgba(245, 248, 255, 1);
+}
 /* nav */
 nav {
   display: flex;
@@ -50,4 +63,23 @@ nav ul li a {
 }
 .text-gray {
   color: rgba(0, 0, 0, 0.5);
+}
+/* main */
+main {
+  margin: 120px 150px 0px;
+}
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner div h1 {
+  font-weight: bold;
+  font-size: 65px;
+}
+.banner div p {
+  font-size: 22px;
+}
+.banner img {
+  width: 100%;
 }
