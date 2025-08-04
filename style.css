@@ -83,3 +83,41 @@ main {
 .banner img {
   width: 100%;
 }
+/* our plants */
+.our-plants {
+  margin-top: 120px;
+}
+.plant-sec-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.plant-sec-des {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+/* products */
+.products {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 10px;
+}
+.product {
+  text-align: center;
+}
+.product-info {
+  text-align: center;
+}
+.name {
+  font-size: medium;
+  color: rgba(17, 17, 17, 1);
+}
+.price {
+  font-size: medium;
+  font-weight: bold;
+  color: rgba(17, 17, 17, 1);
+}
