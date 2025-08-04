@@ -121,3 +121,32 @@ main {
   font-weight: bold;
   color: rgba(17, 17, 17, 1);
 }
+/* trusted-seller */
+.trusted-seller {
+  display: flex;
+  align-items: center;
+  margin: 210px auto;
+  position: relative;
+  width: 100%; 
+  gap: 40rem;
+}
+.background-img {
+  width: 150%;
+  height: auto;
+}
+
+.overlay-img {
+  position: absolute;
+  top: -27%; 
+  left: 14%;
+  width: 17%;
+  height: auto;
+}
+.trusted-seller-title {
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.trusted-seller-des {
+  font-size: 22px;
+}
